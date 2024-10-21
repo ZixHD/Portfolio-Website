@@ -1,6 +1,10 @@
+"use client"
+import { useState } from 'react';
 import './ProfileComponent.css'
 
 export default function ProfileComponent() {
+
+    const [isHovered, setIsHovered] = useState(false);
 
     return (
         <div>
@@ -17,20 +21,21 @@ export default function ProfileComponent() {
                 </div>
                 <p className="sentence">Building Real Products For Real Clients, Not Just More Projects</p>
                 <div className="media-links">
-                    <div className="resume-container">
+                    <div className="resume-container"  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                         <div className="resume-content">
-                            {/* resume */}
-                            <img src=""></img>
-                            <p>Resume</p>
+                            <img className="resume-img" src={isHovered ? '/document-black.png' : '/document.png'} alt="icon" />
+                            <p className="resume-text">Resume</p>
                         </div> 
                     </div>
                     <a href="https://github.com/ZixHD" className="info" target='_blank'>
                         <img src='/github.png' />
                     </a>
-                    <img className="info" src='/instagram.png' />
-                    {/* //mail */}
-                    <img></img>
-                    
+                    <a href="https://www.instagram.com/" className="info" target='_blank'>
+                        <img src='/instagram.png' />
+                    </a>
+                    <a href="mailto:jakovljevic.teo@gmail.com" className="info" >
+                        <img src='/email.png' alt="icon" />
+                    </a>
                 </div>
             </div>
         </div>

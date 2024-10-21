@@ -1,6 +1,6 @@
 .profile-container{
-    padding-left: 30%;
-    padding-top: 10%;
+    padding-left: 50%;
+    padding-top: 15%;
     width: 100%;
 }
 .image-container{
@@ -65,24 +65,53 @@
 
 }
 .resume-container{
-    font-family: "Fira Code", sans-serif;
+    font-family: "Poppins", sans-serif;
     border: 1px solid white;
-    border-radius: 5px;
-    width: 30%;
+    border-radius: 3px;
+    width: 25%;
     display: flex;
     align-items: center;
     height: 30px;
     margin-right: 10%;
+    transition: color 0.3s ease, background-image 0.9s ease;
 }
+
+.resume-container:hover{
+    background-color: white;
+    color: rgb(19, 19, 19);
+    font-weight: 600;
+    
+    
+}
+.resume-img {
+    height: 20px;
+    width: 20px;
+    padding-top: 16px;
+}
+
+
+.resume-text {
+    font-size: 15px;
+    font-weight:400;
+    padding-left:5px;
+}
+
 
 .media-links{
     display: flex;
     flex-direction: row;
+    padding-top:10px;
 }
+
 
 .info{
     width: 24px;
     height: 24px;
     margin-top:5px;
     padding-right: 5%;
+    opacity: 0.5;
+}
+
+.info:hover{
+    opacity: 1;
 }
