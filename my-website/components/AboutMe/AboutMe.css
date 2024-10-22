@@ -1,7 +1,14 @@
 .about-me{
     font-family: "Fira Code", sans-serif;
     font-weight: 500;
-    padding-top: 10%;
+    padding-top: 3%;
     font-size: 30px;
- 
+}
+
+.about-container{
+    padding-right: 10%;
+}
+.text{
+    font-family: "Poppins",sans-serif;
+    color: rgba(196, 196, 196, 0.986);
 }
