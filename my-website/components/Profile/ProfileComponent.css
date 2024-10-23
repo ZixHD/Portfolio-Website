@@ -2,6 +2,8 @@
     padding-left: 45%;
     padding-top: 14%;
     width: 450px;
+    position: sticky;
+    top: 0;
 }
 .image-container{
     border-radius: 50%;
@@ -37,7 +39,7 @@
 
 .location{
     display: flex;
-    font-family: "Fira Code",sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 500;
     padding-top:2px;
     height: 40px;
@@ -47,8 +49,8 @@
 .sentence{
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-
     font-size: 14px;
+    opacity:0.8
 }
 .short-name{
     padding-left: 0.5%;

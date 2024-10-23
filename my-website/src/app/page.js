@@ -1,8 +1,10 @@
 import '../../styles/globals.css'
 import './page.css'
-import ProfileComponent from "../../components/ProfileComponent/ProfileComponent";
+import ProfileComponent from "../../components/Profile/ProfileComponent";
 import AboutMe from '../../components/AboutMe/AboutMe';
 import SkillsComponent from '../../components/Skills/SkillsComponent';
+import ExperienceComponent from '../../components/Experience/ExperienceComponent';
+import EducationComponent from '../../components/Education/EducationComponent';
 
 //TODO: Add a custom slider
 export default function Home() {
@@ -13,6 +15,8 @@ export default function Home() {
         <div className="content">
           <AboutMe />
           <SkillsComponent />
+          <ExperienceComponent />
+          <EducationComponent />
          </div>
         </div>
     </div>

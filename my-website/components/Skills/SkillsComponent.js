@@ -4,7 +4,7 @@ import './SkillsComponent.css'
 export default function SkillsComponent() {
     return (
         <div>
-            <p className="skills">Skills</p>
+            <p className="header">Skills</p>
             <div className="headers">
                 <p className="header-text">Languages</p>
                 <div className="chips">

@@ -3,7 +3,9 @@
     font-weight: 500;
     font-size: 30px;
 }
-
+.headers{
+    padding-bottom: 0px;
+}
 .header-text{
     font-family: "Poppins", sans-serif;
     font-size:20px;
