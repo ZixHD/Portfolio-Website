@@ -3,6 +3,7 @@
     font-family: "Fira Code",sans-serif;
     font-weight: 500;
     font-size: 30px;
+    padding-top: 20px;
 }
 
 .internship-container{
@@ -12,8 +13,9 @@
 }
 
 .experience-container{
-    border-left: 1px solid white;
+    border-left: 1px solid #636363;
     padding-left: 30px;
+    
 }
 
 .content-container{

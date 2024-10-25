@@ -1,0 +1,47 @@
+.big-project-container{
+    margin-bottom: 3%;
+}
+
+.border-container{
+    padding-bottom: 20px;
+}
+
+.project-container{
+    border-left: 2px solid #636363;
+    padding-left: 30px; 
+}
+.project-name{
+    font-family: "Fira Code", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.project-info-container{
+    padding-top: 15px;
+}
+
+.github-container{
+    display: flex;
+    flex-direction: row;
+}
+.github-img{
+    width: 18px;
+    height: 18px;
+    padding-right:10px;
+    padding-top: 18px;
+}
+
+.github-text{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 0.7;
+}
+
+.project-info {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    opacity: 0.8;
+    padding-top:10px;
+    
+}

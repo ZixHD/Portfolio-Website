@@ -21,11 +21,13 @@ export default function ProfileComponent() {
                 </div>
                 <p className="sentence">Building Real Products For Real Clients, Not Just More Projects</p>
                 <div className="media-links">
-                    <div className="resume-container"  onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
-                        <div className="resume-content">
-                            <img className="resume-img" src={isHovered ? '/document-black.png' : '/document.png'} alt="icon" />
-                            <p className="resume-text">Resume</p>
-                        </div> 
+                    <div className="resume-container" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
+                        <a href="/pdf/Teodor_JakovljevicCV.pdf" download style={{ textDecoration: 'none', color: 'inherit' }}>
+                            <div className="resume-content">
+                                <img className="resume-img" src={isHovered ? '/document-black.png' : '/document.png'} alt="icon" />
+                                <p className="resume-text">Resume</p>
+                            </div> 
+                       </a>
                     </div>
                     <a href="https://github.com/ZixHD" className="info" target='_blank'>
                         <img src='/github.png' />
