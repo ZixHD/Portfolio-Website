@@ -13,7 +13,7 @@
 }
 
 .experience-container{
-    border-left: 1px solid #636363;
+    border-left: 2px solid #636363;
     padding-left: 30px;
     
 }
@@ -70,4 +70,25 @@
     font-weight: 300;
     opacity: 0.7;
     height: 15px;
+}
+
+.content-text4 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    opacity: 0.7;
+    height: 15px;
+}
+
+@media screen and (max-width: 500px) {
+    .content-text1 {
+            font-family: "Fira Code", sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+    }
+
+        .experience-list {
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+     
 }

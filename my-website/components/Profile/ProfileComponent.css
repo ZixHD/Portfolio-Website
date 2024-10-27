@@ -117,3 +117,19 @@
 .info:hover{
     opacity: 1;
 }
+
+
+@media screen and (max-width: 1600px) {
+    
+    .profile-container {
+            padding-left: 10%;
+            padding-top: 5%;
+    }
+
+   
+}
+@media screen and (max-width: 500px) {
+ .sentence {
+     padding-right: 20%;
+ }
+}

@@ -11,7 +11,7 @@ export default function ExperienceComponent() {
                     <div className="content-container">
                         <p className='content-text1'>Software Development Intern</p>
                         <p className='content-text2'>PlusPlusNT, Belgrade, Serbia</p>
-                        <p className='content-text3'>September 2024 - October 2024</p>
+                        <p className='content-text4'>September 2024 - October 2024</p>
                     </div>
                 </div>
                 <ul className="experience-list">
