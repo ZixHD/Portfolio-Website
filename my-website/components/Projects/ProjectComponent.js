@@ -1,4 +1,4 @@
-git import './ProjectComponent.css'
+import './ProjectComponent.css'
 
 export default function ProjectComponent() {
     return (
