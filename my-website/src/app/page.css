@@ -11,12 +11,22 @@
 }
 
 @media screen and (max-width: 1600px) {
+    
+
+    .profile-container{
+        padding-left: 25%;
+        padding-top: 10%;
+        position: sticky;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+
     .container{
         display: flex;
         flex-direction: column;
     }
-}
-@media screen and (max-width: 500px) {
     .content {
             margin-left: 10%;
         }
