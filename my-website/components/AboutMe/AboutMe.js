@@ -15,7 +15,7 @@ export default function AboutMe() {
                     During my high school years, I excelled in software development, earning the prestigious title of DUX (top student) in this field. This early achievement laid the foundation for my passion and expertise in programming.
                 </p>
                 <p className="text">
-                    When I'm not immersed in code, you'll find me experimenting in the kitchen or bringing ideas to life with my 3D printer. I'm always creating, whether it's digital products or tangible objects.
+                    When I'm not immersed in code, you'll find me creating games in the Godot engine, reading books or drawing. I'm always creating, whether it's digital products or tangible objects.
                 </p>
             </div>
         </div>

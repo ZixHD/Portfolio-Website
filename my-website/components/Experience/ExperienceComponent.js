@@ -15,7 +15,7 @@ export default function ExperienceComponent() {
                     </div>
                 </div>
                 <ul className="experience-list">
-                    <li className='experience-item'>Demonstrated proficiency in Angular 4, React, .NET, and microservices.</li>
+                    <li className='experience-item'>Demonstrated proficiency in Next.js, Docker and microservices.</li>
                     <li className='experience-item'>Developed effective solutions to complex issues and debugged code efficiently.</li>
                     <li className='experience-item'>Adapted to fast-paced development environments and worked with both legacy and modern technologies.</li>
                     <li className='experience-item'>Collaborated with cross-functional teams, enhancing communication and teamwork skills.</li>
