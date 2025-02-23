@@ -7,7 +7,7 @@ import ExperienceComponent from '../../components/Experience/ExperienceComponent
 import EducationComponent from '../../components/Education/EducationComponent';
 import ProjectComponent from '../../components/Projects/ProjectComponent';
 
-//TODO: Add a custom slider
+
 export default function Home() {
   return (
     <div className="container">
