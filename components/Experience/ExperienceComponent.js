@@ -7,7 +7,7 @@ export default function ExperienceComponent() {
             <p className="header">Experience</p>
             <div className="experience-container">
                 <div className="internship-container">
-                    <img className="logo" src='/ppnt.jpg' alt="logo"></img>
+                    <img className="logo" src='/image/ppnt.jpg' alt="logo"></img>
                     <div className="content-container">
                         <p className='content-text1'>Software Development Intern</p>
                         <p className='content-text2'>PlusPlusNT, Belgrade, Serbia</p>

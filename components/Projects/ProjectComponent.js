@@ -18,7 +18,7 @@ export default function ProjectComponent() {
                     </div>
                     <div className="github-container">
                         <a className="github-container" href="https://github.com/ZixHD/ClassyUML" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <img className="github-img" src="/github.png" alt="githib" />
+                            <img className="github-img" src="/image/github.png" alt="githib" />
                             <p className="github-text">View Code</p>
                         </a>
                     </div>
@@ -40,7 +40,7 @@ export default function ProjectComponent() {
                     </div>
                     <div className="github-container">
                     <a className="github-container" href="https://github.com/ZixHD/React-Weather-Website" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <img className="github-img" src="/github.png" alt="githib" />
+                            <img className="github-img" src="/image/github.png" alt="githib" />
                             <p className="github-text">View Code</p>
                         </a>
                     </div>
@@ -63,7 +63,7 @@ export default function ProjectComponent() {
                     </div>
                     <div className="github-container">
                     <a className="github-container" href="https://github.com/ZixHD/Web_project" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <img className="github-img" src="/github.png" alt="githib" />
+                            <img className="github-img" src="/image/github.png" alt="githib" />
                             <p className="github-text">View Code</p>
                         </a>
                     </div>
@@ -85,7 +85,7 @@ export default function ProjectComponent() {
                     </div>
                     <div className="github-container">
                         <a  className="github-container" href="https://github.com/ZixHD/Pancake-shop" target='_blank' style={{ textDecoration: 'none', color: 'inherit' }}>
-                            <img className="github-img" src="/github.png" alt="githib" />
+                            <img className="github-img" src="/image/github.png" alt="githib" />
                             <p className="github-text">View Code</p>
                         </a>
                     </div>

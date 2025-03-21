@@ -10,12 +10,12 @@ export default function ProfileComponent() {
         <div>
             <div className="profile-container">
                 <div className="image-container">
-                     <img className="pfp" src="/me.jpeg" alt="A description of the image" />
+                     <img className="pfp" src="/image/me.jpeg" alt="A description of the image" />
                 </div>
                 <h1 className="fullname">Teodor Jakovljevic</h1>
                 <h3 className="fullstack">Full Stack Web Developer</h3>
                 <div className="location">
-                    <img className="pin" src="/pin.png"></img>
+                    <img className="pin" src="/image/pin.png"></img>
                     <p>Belgrade, Serbia 🇷🇸</p>
                     
                 </div>
@@ -24,19 +24,19 @@ export default function ProfileComponent() {
                     <div className="resume-container" onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)}>
                         <a href="/pdf/Teodor_JakovljevicCV.pdf" download style={{ textDecoration: 'none', color: 'inherit' }}>
                             <div className="resume-content">
-                                <img className="resume-img" src={isHovered ? '/document-black.png' : '/document.png'} alt="icon" />
+                                <img className="resume-img" src={isHovered ? '/image/document-black.png' : '/image/document.png'} alt="icon" />
                                 <p className="resume-text">Resume</p>
                             </div> 
                        </a>
                     </div>
                     <a href="https://github.com/ZixHD" className="info" target='_blank'>
-                        <img src='/github.png' />
+                        <img src='/image/github.png' />
                     </a>
                     <a href="https://www.instagram.com/" className="info" target='_blank'>
-                        <img src='/instagram.png' />
+                        <img src='/image/instagram.png' />
                     </a>
                     <a href="mailto:jakovljevic.teo@gmail.com" className="info" >
-                        <img src='/email.png' alt="icon" />
+                        <img src='/image/email.png' alt="icon" />
                     </a>
                 </div>
             </div>
