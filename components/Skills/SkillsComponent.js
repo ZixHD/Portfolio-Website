@@ -34,8 +34,9 @@ export default function SkillsComponent() {
             <div className="headers">
                 <p className="header-text">Database</p>
                 <div className="chips">
-                    <p className="chip-database">MySQL</p>  
-                    <p className="chip-database">MongoDb</p>   
+                    <p className="chip-database">MySQL</p>
+                    <p className="chip-database">PostgreSQL</p> 
+                    <p className="chip-database">MongoDB</p>    
                 </div>
             </div>
             <div className="headers">

@@ -26,20 +26,21 @@ export default function ProjectComponent() {
             </div>
             <div className="border-container">
                 <div className="project-container">
-                    <p className="content-text1">Weza: Weather Forecast Website</p>
+                    <p className="content-text1">Banking Software Platform</p>
                     <ul className="project-info-container">
-                        <li className="project-info">Designed and developed a weather forecast website, leveraging the OpenWeather API to provide real-time weather data to users.</li>
-                        <li className="project-info">Built a responsive, user-friendly interface using HTML, CSS, and JavaScript, ensuring a seamless experience across devices.</li>
-                        <li className="project-info">Integrated the OpenWeather API to retrieve and display current weather, forecast data, and weather alerts. </li>
+                        <li className="project-info">Contributed to the development of a full-featured banking platform as part of a 20-person team, supporting core services such as currency exchange, money transfers, account management, and actuarial processing.</li>
+                        <li className="project-info">Worked on both backend and frontend: implemented RESTful APIs in Java Spring, and built responsive UI components using React.</li>
+                        <li className="project-info">Containerized services using Docker and deployed them on a Kubernetes (K8s) cluster for high availability and scalability. </li>
+                        <li className="project-info">Ensured secure and efficient communication between microservices, following best practices in API design and software architecture.</li>
                     </ul>
                     <div className="chips">
                         <p className="chip">React.js</p>  
-                        <p className="chip">JavaScript</p>  
-                        <p className="chip">Html</p>  
-                        <p className="chip">CSS</p>  
+                        <p className="chip">Java</p>  
+                        <p className="chip">Docker</p>  
+                        <p className="chip">PostgreSQL</p>  
                     </div>
                     <div className="github-container">
-                    <a className="github-container" href="https://github.com/ZixHD/React-Weather-Website" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
+                    <a className="github-container" href="https://github.com/ZixHD/Banka-1-Frontend" target="_blank" style={{ textDecoration: 'none', color: 'inherit' }}>
                             <img className="github-img" src="image/github.png" alt="githib" />
                             <p className="github-text">View Code</p>
                         </a>

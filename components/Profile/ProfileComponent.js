@@ -29,15 +29,19 @@ export default function ProfileComponent() {
                             </div> 
                        </a>
                     </div>
-                    <a href="https://github.com/ZixHD" className="info" target='_blank'>
+                    <a href="https://github.com/ZixHD" className="info git" target='_blank'>
                         <img src='image/github.png' />
                     </a>
-                    <a href="https://www.instagram.com/" className="info" target='_blank'>
+                     <a href="https://www.linkedin.com/in/teodor-jakovljević-499293296" className="info link" target='_blank'>
+                        <img src='image/linkedin1.png' />
+                    </a>
+                    <a href="https://www.instagram.com/" className="info ig" target='_blank'>
                         <img src='image/instagram.png' />
                     </a>
-                    <a href="mailto:jakovljevic.teo@gmail.com" className="info" >
+                    <a href="mailto:jakovljevic.teo@gmail.com" className="info mail" >
                         <img src='image/email.png' alt="icon" />
                     </a>
+                     
                 </div>
             </div>
         </div>

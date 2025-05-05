@@ -114,8 +114,26 @@
     opacity: 0.5;
 }
 
-.info:hover{
+.info:hover {
     opacity: 1;
+}
+
+.info.ig {
+    margin-top: 6px;
+}
+.info.link{
+    padding-right: 5%;
+}
+.info.git{
+    padding-right: 5%;
+}
+
+.info.mail {
+    margin-top: 7px;
+}
+
+.info.default {
+    margin-top: 5px;
 }
 
 
